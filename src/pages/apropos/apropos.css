@@ -1,0 +1,56 @@
+.apropos{
+    background-color: #f5fafd;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    
+}
+
+.aproposContainer1{
+    padding: 150px 20px 0px 20px;
+    background-color: #f5fafd;
+    display: flex;
+}
+
+.aproposContainer1Left{
+    display: flex;
+    flex: 3.5;
+}
+
+.aproposContainer1Title{
+    font-size: 100px;
+    font-weight: 600;
+    position: absolute;
+    color: white;
+    padding: 60px;
+}
+
+.aproposContainer1Img{
+    width: 100%;
+    object-fit: cover;  
+}
+
+
+.aproposContainer1Right{
+    flex:4;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aproposContainer1Text{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.aproposBHM{
+    font-weight: 400;
+    font-size: 21px;
+}
+
+
+.aproposContainer2{
+    padding: 0px 50px;
+    
+    display: flex;
+}

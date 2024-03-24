@@ -1,0 +1,9 @@
+.home{
+    background-color: #f5fafd;
+    
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+}

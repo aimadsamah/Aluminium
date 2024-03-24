@@ -1,0 +1,101 @@
+
+
+.contact{
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #f5fafd;
+    color: rgb(10, 2, 60);
+}
+
+.textContainer{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 30px;
+    
+    
+}
+
+.textContainerH1{
+    font-size: 50px;
+    font-weight: 400;
+}  
+
+.item{
+    display: flex;
+    line-height: 30px;
+    flex-direction: column;
+}
+
+.itemTitle{
+    display: flex;
+}
+
+.itemIcon{
+    margin-right: 10px;
+}
+
+
+.itemH2{
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.itemSpan{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(39, 25, 129);
+}
+
+
+.formContainer{
+    padding: 100px;
+    flex: 1;
+    position: relative;
+    margin-top: 20px;
+}
+
+.phoneSvg{
+    position: absolute;
+    margin: auto;
+    stroke: rgb(17, 5, 90);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    
+}
+
+.formInput{
+    padding: 15px;
+    border: 2px solid rgb(17, 5, 90);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.formTextarea{
+    padding: 20px;
+    border: 2px solid rgb(17, 5, 90);
+    border-radius: 5px;
+}
+
+.formButton{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    
+    font-family: "Josefin Sans", sans-serif;
+    background-color: rgb(13, 4, 70);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}

@@ -1,0 +1,92 @@
+.maintenance{
+    display: flex;
+    flex-direction: column;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    background-color: #f5fafd;
+    padding: 100px 20px 500px 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mainTitle{
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.mainParagraphe{
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 130px;
+    font-weight: 300;
+    font-size: 25px;
+    
+}
+
+.maintenanceBetween{
+    background-color: black;
+    width: 70%;
+    height: 1px;
+    border: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.maintenance1{
+    display: flex;
+    gap: 30px;
+}
+
+.maintenanceDesc{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(222, 234, 240);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.maintenanceDesc:hover{
+    background-color: rgb(244, 249, 252);
+}
+
+.maintenanceIcon{
+    display: flex;
+    font-size: 150px;
+    flex: 1;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.maintenanceTitle{
+    font-weight: 500;
+    font-size: 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: rgb(238, 244, 250);
+    
+    
+    padding: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+    
+}
+.maintenanceTitle:hover{
+    background-color: rgb(239, 244, 249);
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+.maintenanceText{
+    font-size: 24px;
+    font-weight: 300;
+    width: 100%;
+    line-height: 29px;
+}
+
+

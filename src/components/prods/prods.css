@@ -1,0 +1,74 @@
+.prods{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    padding-bottom: 500px;
+    background-color: #f5fafd;
+}
+
+.prodsTitle{
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.prodsParagraphe{
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 150px;
+    font-weight: 300;
+    font-size: 25px;
+    padding-left: 110px;
+}
+
+.prodsContainer1{
+    display: flex;
+    padding: 50px 05px;
+    background-color: rgb(238, 245, 251)
+}
+
+.prodsContainer2{
+    display: flex;
+    padding: 50px 05px;
+    background-color: rgb(246, 248, 251);
+}
+
+.prodsContainerName{
+    font-weight: 400;
+    font-size: 35px;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.prodsContainerSeparation{
+    background-color: rgb(136, 127, 127);
+    width: 3px;
+    margin:25px 10px;
+    height: 580px;
+}
+
+.prodsContainerItems{
+    margin-left: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.prodsContainerItem{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.prodsContainerItemImg{
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+}
+
+.prodsContainerItemTitle{}
+

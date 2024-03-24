@@ -1,0 +1,112 @@
+.devis{
+    background-color: #f5fafd;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.devisContainer1{
+    display: flex;
+}
+
+.devisTexts{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: rgb(8, 8, 8);
+    margin-top: 40px;
+    width: 90%;
+    margin-left: 70px;
+}
+
+.text1{
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.text2{
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+
+.devisImg{
+    width: 80%;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.devisContainer2{
+    display: flex;
+    flex-direction: column;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+
+.down{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+    color: rgb(23, 20, 65);
+}
+
+.devisButton{
+    width: 350px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(35, 64, 88);
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.devisButton:hover{
+    background-color: aliceblue;
+    color: rgb(35, 64, 88);
+    border-color: rgb(35, 64, 88);
+    border: solid;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.devisContainer2Text{
+    display: flex;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+    padding-top: 27px;
+}
+
+.text3{
+    font-size: 20px;
+    margin-top: 4px;
+    font-weight: 600;
+}
+
+.text4{
+    font-size: 29px;
+    margin-top: 5px;
+    font-weight: 600;
+}

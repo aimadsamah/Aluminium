@@ -1,0 +1,92 @@
+.section1{
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5fafd;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.section1Container1{
+    
+}
+
+.section1MainTitle{
+    color: rgb(67, 65, 65);
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+    padding: 150px;
+}
+
+
+
+.section1Container2{
+    display: flex;
+    align-items: center;
+    background-color: rgb(218, 236, 251);
+}
+
+.between{
+    background-color:rgb(88, 86, 86);
+    height: 300px;
+    width: 2px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container2Titles{
+    
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    border: none;
+    background-color: rgb(227, 240, 252);
+    padding: 20px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+}
+
+.container2Titles:hover{
+    background-color: rgb(35, 64, 88);
+    color:aliceblue;
+    border-color: aliceblue;
+    border: solid;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.container2Img{
+
+    width: 100%;
+    height: 300px;
+}
+
+.section1Container2Produits{
+    padding: 40px;
+    flex: 6;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+
+.section1Container2Services{
+    padding: 40px;
+    flex: 6;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
